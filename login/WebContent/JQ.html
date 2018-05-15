@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="JQuery/JQuery331.js">
+</script>
+
+<script>
+$(document).ready(function(){
+	$("#loc").css("background:red");
+    $("h1, p").click(function(){
+        $(this).hide();
+    });
+    $("h2").click(function(){
+    $("h1,p").show();
+    });
+});
+</script>
+
+
+</head>
+
+<body>
+
+<h1>If you click on me, I will disappear.</h1>
+<h2>Display all!</h2>
+<p>Click me too!</p>
+
+<select id="loc" >
+	<option value="USA">USA</option>
+	<option value="India">India</option>
+	<option value="Canada">Canada</option>
+</select>
+
+<script>
+var myFile = $.get('C:\Users\Romiyo\Desktop\apr16.txt',function(data){
+
+});
+</script>
+
+<script>
+function display(){
+	var state = $("#loc").val();
+	
+}
+</script>
+
+
+</body>
+</html>

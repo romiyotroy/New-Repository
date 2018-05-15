@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<style>
+body {background-color:cyan;}
+td, th {border:1px solid black; outline-style: solid; outline-width:2px;}
+</style>
+
+<body>
+
+<h1 style="color:red; font-size:300%; text-align:center; text-decoration:underline">
+<b>ART SCHOOL</b>
+</h1>
+
+<p style="padding-left:22%; font-size:200%; color:blue; text-decoration:underline">
+Festival Schedule
+</p>
+
+<table style="padding-left:10%; width:50%; font-size:24px">
+<tr> <th>Time</th> <th>Topic</th> </tr>
+<tr> <td>18:00 - 20:30</td> <td>Registration</td> </tr>
+<tr> <td>20:30 -23:00</td> <td>Keynote</td> </tr>
+</table>
+
+<p style="border-bottom:5px solid red;">
+</p>
+
+<form action="LoginServer" method="post" style="background-color:teal; padding-bottom:25px;">
+<p style="font-size:32px; color:silver; padding-left:10%">
+<b>Sign up</b>
+</p>
+
+<label style="font-size:24px;padding-left:10%"><b> Name </b></label>
+<input type="text" name="fullname" id="fname" placeholder="Enter your name" style="font-size:24px;width:30%;"><br><br>
+<label style="font-size:24px;padding-left:10%"><b> E-mail </b></label>
+<input type="text" name="email" id="email" placeholder="Enter your e-mail" style="font-size:24px;width:50%;"><br><br>
+<label style="font-size:24px;padding-left:10%"> Password </label>
+<input type="password" name="password" id="pw" style="font-size:24px;width:30%"><br><br>
+<label style="font-size:24px;padding-left:10%"> Confirm Password </label>
+<input type="Password" name="confirmPassword" id="cpw" style="font-size:24px;width:30%"><br><br>
+<label style="font-size:24px;padding-left:10%"><b> Location </b></label>
+<select name="location" id="loc" style="font-size:24px;width:30%;">
+	<option value="USA">USA</option>
+	<option value="India">India</option>
+	<option value="Canada">Canada</option>
+</select>
+<br><br>
+<label>Select the course</label>
+<input type="checkbox" name="course" value="css">
+<label>css</label>
+<input type="checkbox" name="course" value="java">
+<label>java</label>
+<input type="checkbox" name="course" value="c++">
+<label>c++</label>
+<br><br>
+
+<label style="font-size:24px;padding-left:10%"><b> Gender </b></label>
+<input type="radio" name="gender" value="male" >
+<label style="font-size:24px; color:yellow">Male</label>
+<input type="radio" name="gender" value="female">
+<label style="font-size:24px; color:yellow">Female</label><br><br>
+
+<label style="font-size:24px;padding-left:10%"><b> Experience </b></label>
+<textarea rows="6" cols="50" style="font-size:20px" placeholder="Write your experience here."></textarea>
+
+<input type="submit" value="Sign Up" style="font-size:24px; color:yellow; background-color:green"><br><br>
+
+</form>
+
+
+</body>
+</html>
